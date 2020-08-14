@@ -1,0 +1,75 @@
+body {
+	background-image: url(images/wallpaper.jpg);
+	background-size:100%;
+}
+
+h1 {
+	font-size:20px;
+	color:green;
+	text-align:center;
+	border: 4px double black; /* Параметры границы */
+    background: pink; /* Цвет фона */
+    padding-bottom: 20px; /* Поля вокруг текста */
+    border-radius: 100px;
+    width:30%;
+    height:30px;
+    padding:19px;
+}
+
+.radius {
+	width:360px;
+	height:360px;
+	border-radius: 40px 40px;
+	border: 5px solid #E16EB5;
+	position:relative;
+	opacity:0.5;
+}
+
+.second {
+	position:absolute;
+	right:100px;
+	width: 360px;
+	height:360px;
+	border: 7px dashed #F4D93E;
+	opacity:0.6;
+	box-shadow: 3px 3px 7px #000000;
+}
+
+.third {
+	text-align:left;
+	width:360px;
+	height:360px;
+	border-radius:100px;
+	opacity:0.4;
+	margin-left:20px;
+}
+
+.third:hover {
+	opacity:1;
+}
+
+.second:hover {
+	opacity:1;
+}
+
+h1:hover {
+	opacity:0;
+}
+
+.radius:hover {
+	opacity:1;
+}
+aside {
+	color:white;
+	background-color: blue;
+	float:top;
+}
+
+a {
+	color:#D6F494;
+}
+
+aside:hover {
+	background-color:#A08BF4;
+}
+
